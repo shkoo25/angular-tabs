@@ -1,10 +1,9 @@
-var change = angular.module("tabController", [])
+var change = angular.module("change", []);
 
 change.controller("TabController", ["$scope", function($scope){
 
 	
-	$scope.TabController = "RED"
+	//$scope.view-tab = 'RED',
  
   
 }]) 
-
